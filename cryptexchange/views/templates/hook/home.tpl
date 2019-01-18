@@ -25,7 +25,7 @@
                     <div class="input-group-btn">
                         <select class="form-control" name="to">
                             {foreach $rates as $rate}
-                                <option value="{$rate->symbol|escape:'htmlall'}" {if $rate->symbol eq 'BTC'}selected{/if}>{$rate->symbol|escape:'htmlall'}</option>
+                                <option value="{$rate->symbol|escape:'htmlall'}" {if $rate->symbol eq 'ETH'}selected{/if}>{$rate->symbol|escape:'htmlall'}</option>
                             {/foreach}
                         </select>
                     </div>
